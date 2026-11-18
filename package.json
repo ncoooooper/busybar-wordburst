@@ -1,7 +1,7 @@
 {
   "name": "busybar-wordburst",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Count a chosen spoken word with local speech recognition and a separate pixel firework for every match.",
   "author": "ncoooooper",
   "type": "module",

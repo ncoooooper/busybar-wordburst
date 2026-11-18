@@ -4,6 +4,20 @@ Count a chosen spoken word with local speech recognition and a separate pixel fi
 
 Rehearse a talk with the counter in sight. Three matches in one utterance become three separate bursts, so you can see how often the word slipped in without stopping to read a transcript.
 
+## Screen transitions
+
+Watch the word count advance as the rehearsal receives one hit and then a group of hits.
+
+![Wordburst front display. Watch the word count advance as the rehearsal receives one hit and then a group of hits.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Wordburst rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Count a word during a rehearsal
 
 1. Start the Mac companion with the word you want to count and connect the app to its URL. Check the rear display for the capture state.
@@ -44,6 +58,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/count.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
