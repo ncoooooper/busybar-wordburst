@@ -1,0 +1,14 @@
+{
+  "id": "BB-011",
+  "source": "Synthesized English speech sent as PCM through real local whisper.cpp and VAD. Physical microphone input was not exercised.",
+  "scenario": "Heard three matches of amazing. The firmware animated the increment and fireworks, then displayed 3. Switched to the target and increased it.",
+  "keys": [
+    "ok",
+    "up",
+    "ok"
+  ],
+  "frames": 120,
+  "distinct_frames": 24,
+  "exit": "App io.ncoooooper.wordburst exited: finished; heap peak 87.7 of 128 KiB",
+  "sha256": "bd1191036ce2bf9c65037bb5d8294273b999363db4a86c5393cf9c7ef97aae88"
+}
