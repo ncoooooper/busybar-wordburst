@@ -10,7 +10,7 @@ function displayWord(text:string){return text.toLowerCase().split("").map(c=>uk[
 function draw():Frame{
  const total=snap?.count||0;
  const word=displayWord(snap?.word||"listen");
- const frames:Frame=[label("word",word.toUpperCase().slice(0,14),1,0,amber,"front","tiny"),
+ const frames:Frame=[label("word",word.toUpperCase(),1,0,amber,"front","tiny"),
  label("total",String(shown),1,5,mint,"front","bold"),...panel("WORD BURST",[
  connected?snap?.state||"Connected":config?"Bridge offline":"Set bridge URL",page?"Target: "+goal:"Word: "+word,
  "Heard "+total+" / goal "+goal,page?"Click: adjust goal":"Click: refresh",
