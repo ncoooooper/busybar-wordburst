@@ -1,0 +1,6 @@
+{
+  "category": "social",
+  "short_description": "Count a chosen spoken word with local speech recognition and a separate pixel firework for every match.",
+  "description": "Count a chosen spoken word with local speech recognition and a separate pixel firework for every match. Set a word, start the Mac companion, and place the bar near your screen. Say ‘amazing’ three times during a presentation and you get three hits. The counter is shared with the display. Wheel switches to the target editor, click changes the goal or refreshes the count, and Start sets a new target five hits above the current count.",
+  "changelog": "First public version."
+}

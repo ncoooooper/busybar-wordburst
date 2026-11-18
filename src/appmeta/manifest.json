@@ -4,6 +4,6 @@
   "name": "Wordburst",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Wordburst",
+  "description": "Count a chosen spoken word with local speech recognition and a separate pixel firework for every match.",
   "author": "ncoooooper"
 }
