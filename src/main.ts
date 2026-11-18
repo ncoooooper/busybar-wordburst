@@ -50,5 +50,5 @@ const refresh=surface(draw,k=>{
  else if(k==="ok"&&page)goal=goal>=50?5:goal+5;
  else if(k==="ok")void poll();
  else if(k==="start")goal=shown+5;
-},()=>{closed=true;if(nextPoll!==undefined)clearTimeout(nextPoll);if(animation!==undefined)clearTimeout(animation);});
+},()=>{closed=true;if(nextPoll!==undefined)clearTimeout(nextPoll);if(animation!==undefined)clearTimeout(animation);},{enabled:false});
 void loadValues().then(v=>{if(closed)return;config=String(v?.bridge||"").trim();refresh();if(config)void poll();}).catch(report);

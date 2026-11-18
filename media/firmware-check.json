@@ -10,7 +10,7 @@
   "frames": 120,
   "distinct_frames": 24,
   "exit": "App io.ncoooooper.wordburst exited: finished; heap peak 87.7 of 128 KiB",
-  "sha256": "7f5710495955ff35ee33e86ff5634134b2fb03b4c21ceec30bcec3c38767ae91",
+  "sha256": "5d127dbdc4447c1e1481f8a485d5c338c89c67cc2e7e795f812c16ca7125e7e7",
   "display_test": {
     "firmware": "1.3.1",
     "input": "Recorded companion readings",
@@ -24,9 +24,9 @@
     ],
     "frames": 128,
     "distinct_by_flow": [
-      10,
+      9,
       15
     ],
-    "exit": "App io.btype.wordburst exited: finished; heap peak 93.2 of 128 KiB"
+    "exit": "App io.btype.wordburst exited: finished; heap peak 91.5 of 128 KiB"
   }
 }
